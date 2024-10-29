@@ -2,12 +2,15 @@
 @media (max-width: 600px) {
     .header-image {
         height: 40vh;
+        background-size: cover; /* Ensures full width without gaps */
+        background-position: center;
     }
 
     .header-title {
-        font-size: 3em;
+        font-size: 2.5em; /* Reduces size for better fit */
         text-align: center; 
-        white-space: nowrap;
+        white-space: nowrap; /* Keeps text on a single line */
+        margin: 0 auto; /* Centers the title */
     }
 
     .burger-menu {
@@ -24,6 +27,8 @@
     .about-section {
         flex-direction: column;
         text-align: center;
+        padding-left: 5%; /* Adds equal padding */
+        padding-right: 5%;
     }
 
     .about-logo {
@@ -56,6 +61,8 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+        padding-left: 5%; /* Adds equal padding */
+        padding-right: 5%;
     }
 
     /* Go to top button positioning */
@@ -96,6 +103,8 @@
     .about-section {
         flex-direction: column;
         text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     /* Character Image size control */
