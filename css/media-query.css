@@ -1,0 +1,114 @@
+/* Media Query for small screens (up to 600px) */
+@media (max-width: 600px) {
+    .header-image {
+        height: 40vh;
+    }
+
+    .header-title {
+        font-size: 3em;
+    }
+
+    .burger-menu {
+        font-size: 1.5rem;
+        top: 10px;
+        right: 10px;
+    }
+
+    .slide-menu {
+        width: 200px;
+    }
+
+    /* About Section adjustments */
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-logo {
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .about-right h2 {
+        font-size: 2rem;
+    }
+
+    .about-right p {
+        font-size: 1rem;
+    }
+
+    /* Featured Boxes adjustments */
+    .featured-boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .food-box, .char-img {
+        width: 90%;
+        max-width: 300px;
+        margin-bottom: 15px;
+    }
+
+    /* Footer adjustments */
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Go to top button positioning */
+    .go-to-top {
+        bottom: 10px;
+        right: 10px;
+    }
+}
+
+/* Media Query for medium screens (up to 768px) */
+@media (max-width: 768px) {
+    .header-title {
+        font-size: 4em;
+    }
+
+    /* About Section text adjustments */
+    .about-right h2 {
+        font-size: 2.2rem;
+    }
+
+    .about-right p {
+        font-size: 1.1rem;
+    }
+
+    .featured {
+        padding: 20px;
+    }
+
+    /* Footer text adjustments */
+    footer h4 {
+        font-size: 1.2rem;
+    }
+}
+
+/* Additional Responsive Adjustments for Consistent Layout */
+@media (max-width: 768px) {
+    /* About Section stack and center alignment */
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Character Image size control */
+    .char-img {
+        height: 300px; /* Reduces image size for mobile */
+    }
+
+    /* Food Box scaling */
+    .food-box {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    /* Featured Text scaling */
+    .featured-text h2 {
+        font-size: 2.5rem;
+    }
+}

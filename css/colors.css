@@ -1,0 +1,12 @@
+/* file colors.css */
+:root {
+    --black: #2b2725;
+    --peach: #ffd5bf;
+    --dark-peach: #de9a8a;
+    --green: #7bbb7b;
+    --yellow: #e9be35;
+    --brown: #ddb883;
+    --background-color: #ffe7db;
+    --primary-font: 'Product Sans', sans-serif;
+    --secondary-font: 'Poppins', sans-serif;
+}
